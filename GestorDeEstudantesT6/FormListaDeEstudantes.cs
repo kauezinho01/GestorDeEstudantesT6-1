@@ -39,6 +39,9 @@ namespace GestorDeEstudantesT6
             FormAtualizarApagarAlunos formAtualizarApagarAlunos = new FormAtualizarApagarAlunos();
             formAtualizarApagarAlunos.textBoxId.Text = 
                 dataGridViewListaDeEstudantes.CurrentRow.Cells[0].Value.ToString();
+            formAtualizarApagarAlunos.textBoxSobrenome.Text =
+                da
+                
             
             formAtualizarApagarAlunos.Show();
         }
