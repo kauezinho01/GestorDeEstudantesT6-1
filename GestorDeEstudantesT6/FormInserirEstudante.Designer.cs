@@ -57,6 +57,7 @@
             this.textBoxNome.Name = "textBoxNome";
             this.textBoxNome.Size = new System.Drawing.Size(163, 20);
             this.textBoxNome.TabIndex = 6;
+            this.textBoxNome.TextChanged += new System.EventHandler(this.textBoxNome_TextChanged);
             // 
             // label2
             // 
@@ -74,6 +75,7 @@
             this.textBoxSobrenome.Name = "textBoxSobrenome";
             this.textBoxSobrenome.Size = new System.Drawing.Size(163, 20);
             this.textBoxSobrenome.TabIndex = 8;
+            this.textBoxSobrenome.TextChanged += new System.EventHandler(this.textBoxSobrenome_TextChanged);
             // 
             // label1
             // 
@@ -102,6 +104,7 @@
             this.dateTimePickerNascimento.Name = "dateTimePickerNascimento";
             this.dateTimePickerNascimento.Size = new System.Drawing.Size(95, 20);
             this.dateTimePickerNascimento.TabIndex = 10;
+            this.dateTimePickerNascimento.ValueChanged += new System.EventHandler(this.dateTimePickerNascimento_ValueChanged);
             // 
             // label4
             // 
@@ -132,6 +135,7 @@
             this.radioButtonMasculino.TabIndex = 1;
             this.radioButtonMasculino.Text = "Masculino";
             this.radioButtonMasculino.UseVisualStyleBackColor = true;
+            this.radioButtonMasculino.CheckedChanged += new System.EventHandler(this.radioButtonMasculino_CheckedChanged);
             // 
             // radioButtonFeminino
             // 
@@ -144,6 +148,7 @@
             this.radioButtonFeminino.TabStop = true;
             this.radioButtonFeminino.Text = "Feminino";
             this.radioButtonFeminino.UseVisualStyleBackColor = true;
+            this.radioButtonFeminino.CheckedChanged += new System.EventHandler(this.radioButtonFeminino_CheckedChanged);
             // 
             // textBoxTelefone
             // 
@@ -151,6 +156,7 @@
             this.textBoxTelefone.Name = "textBoxTelefone";
             this.textBoxTelefone.Size = new System.Drawing.Size(163, 20);
             this.textBoxTelefone.TabIndex = 14;
+            this.textBoxTelefone.TextChanged += new System.EventHandler(this.textBoxTelefone_TextChanged);
             // 
             // label5
             // 
@@ -169,6 +175,7 @@
             this.textBoxEndereco.Name = "textBoxEndereco";
             this.textBoxEndereco.Size = new System.Drawing.Size(163, 56);
             this.textBoxEndereco.TabIndex = 16;
+            this.textBoxEndereco.TextChanged += new System.EventHandler(this.textBoxEndereco_TextChanged);
             // 
             // label6
             // 
@@ -189,6 +196,7 @@
             this.pictureBoxFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxFoto.TabIndex = 17;
             this.pictureBoxFoto.TabStop = false;
+            this.pictureBoxFoto.Click += new System.EventHandler(this.pictureBoxFoto_Click);
             // 
             // buttonEnviarFoto
             // 
@@ -247,6 +255,7 @@
             this.Name = "FormInserirEstudante";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SGA - Novo Cadastro";
+            this.Load += new System.EventHandler(this.FormInserirEstudante_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).EndInit();

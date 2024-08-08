@@ -108,6 +108,49 @@ namespace GestorDeEstudantesT6
             }
         }
 
+        private void textBoxNome_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        private void FormInserirEstudante_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxSobrenome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePickerNascimento_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButtonFeminino_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButtonMasculino_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxTelefone_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxEndereco_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBoxFoto_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
