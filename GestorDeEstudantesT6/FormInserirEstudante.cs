@@ -108,6 +108,7 @@ namespace GestorDeEstudantesT6
             }
         }
 
+<<<<<<< HEAD
         private void textBoxNome_TextChanged(object sender, EventArgs e)
         {
 
@@ -152,5 +153,11 @@ namespace GestorDeEstudantesT6
         {
 
         }
+=======
+        private void FormInserirEstudante_Load(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> 93db585463bff505a9c5eba042b29445a25acc2c
     }
 }
